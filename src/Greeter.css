@@ -1,0 +1,15 @@
+body{
+background-color: bisque;
+}
+
+h1{
+    color: red;
+    font-family:American Typewriter, serif;
+}
+
+.hello{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
