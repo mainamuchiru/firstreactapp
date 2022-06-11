@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeter from './Greeter'; 
+// import Greeter from './Greeter'; 
+import Clock from './Clock'; 
 
 function App() {
   return (
@@ -18,7 +19,12 @@ function App() {
         >
           Learn React
         </a>
-        <Greeter />
+        <Clock continent='Africa' City='Nairobi' /> <hr />
+        <Clock continent='Europe' City='Paris' /> <hr />
+        <Clock continent='Austraila' City='Canberra' /> <hr />
+        <Clock continent='Asia' City='New Dheli' /> <hr />
+        <Clock continent='North America' City='Washington DC' /> <hr />
+        <Clock continent='South America' City='Sao Paulo' />
       </header>
     </div>
   );
